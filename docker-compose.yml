@@ -1,0 +1,12 @@
+version: "3.0"
+services:
+    front_end_redux:
+        container_name: front_end_redux
+        restart: always
+        ports:
+            - 8080:3000
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        volumes:
+            - ".:/usr/src/app"

@@ -1,0 +1,95 @@
+.table {
+    margin-top: 10px;
+}
+
+thead th {
+    background: #00A5E3;
+}
+
+.modal-dialog .btn {
+    width: 80px
+}
+
+
+@media (min-width: 576px) {
+    .modal-dialog.exam-overview-modal {
+        max-width: 900px !important;
+    }
+}
+
+.exam-detail-card {
+    background-color: #9BD9F1 !important;
+}
+
+.exam-detail-card ul {
+    margin: 0; padding: 0 0 0 15px;
+}
+
+.exam-detail-card ul li {
+    line-height: 30px;
+}
+
+.submission-panel .card {
+    margin-top: 10px;
+}
+
+.submission-panel form .form-check {
+    margin: 20px 5px
+}
+
+.submission-panel .card .card-header {
+
+}
+
+
+.submission-panel .card-footer .btn-outline-primary {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.submission-panel .card-footer .btn-danger {
+    width: 100px
+}
+
+.input-timestamp {
+    font-weight: bolder !important;
+    font-size: 40px !important;
+    text-align: center;
+}
+
+.oe-progress {
+    height: 2rem !important;
+}
+
+.oe-progress .progress-bar {
+    color: #9BD9F1
+}
+
+.exam-info-snippet {
+    margin: 30px 0;
+}
+
+.exam-info-snippet td {
+    padding: 5px 0;
+    vertical-align: middle;
+}
+
+.exam-info-snippet tr > td:nth-child(2) {
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+
+.oe-result-modal .btn {
+    width: 100%
+}
+
+.oe-result-modal table {
+    margin: 30px 0;
+}
+
+.oe-result-modal .alert {
+    line-height: 40px;
+}
